@@ -15,7 +15,7 @@ export const fetchByCategory = createAsyncThunk(
   async (category) => {
     try {
       const response = await axios.get(
-        `https://emojihub.yurace.pro/api/category/${"grinning face"}`
+        `https://emojihub.yurace.pro/api/category/${"smileys-and-people"}`
       );
       return response.data;
     } catch (error) {
